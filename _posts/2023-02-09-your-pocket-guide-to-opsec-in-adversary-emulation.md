@@ -145,7 +145,7 @@ if you use impacket to do kerberoasting, customize your `TGS-REQ` by modifing en
 
 ## Lateral Mouvement
 
-As you know, ETW providers what many things like even things related to lateral mouvement like WinRM, RDP...
+As you know, there is a lot of ETW providers, even providers related to lateral mouvement like WinRM, RDP...
 
 - **OPSEC Tip** : DCOM is more complicated to detect, since each "Method" works in a different way. In the particular case of `MMC20.Application`, the spawned process will be a child of `mmc.exe`.
 
